@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="YKFile" representedClassName="YKFile" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="is_shared" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="item_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="last_updated_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_updated_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mime_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parent_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path_by_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="share_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="share_level" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="shared_by" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="shared_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="fileContainer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="YKFileContainer" inverseName="files" inverseEntity="YKFileContainer" syncable="YES"/>
+    </entity>
+    <entity name="YKFileContainer" representedClassName="YKFileContainer" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="files" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="YKFile" inverseName="fileContainer" inverseEntity="YKFile" syncable="YES"/>
+        <relationship name="myFileSpace" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="YKSpace" inverseName="myFiles" inverseEntity="YKSpace" syncable="YES"/>
+        <relationship name="sharedFileSpace" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="YKSpace" inverseName="sharedFiles" inverseEntity="YKSpace" syncable="YES"/>
+    </entity>
+    <entity name="YKSpace" representedClassName="YKSpace" syncable="YES">
+        <attribute name="availableSpace" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="last_rev_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pendingRequests" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rev_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalSpace" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="usedSpace" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="myFiles" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="YKFileContainer" inverseName="myFileSpace" inverseEntity="YKFileContainer" syncable="YES"/>
+        <relationship name="sharedFiles" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="YKFileContainer" inverseName="sharedFileSpace" inverseEntity="YKFileContainer" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="YKFile" positionX="18" positionY="342" width="128" height="343"/>
+        <element name="YKFileContainer" positionX="-279" positionY="260" width="128" height="118"/>
+        <element name="YKSpace" positionX="-560" positionY="209" width="128" height="178"/>
+    </elements>
+</model>

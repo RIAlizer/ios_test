@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A329C2B16F16DCE0040362A /* YKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2916F16DCE0040362A /* YKInfoViewController.m */; };
+		3A329C2C16F16DCE0040362A /* YKInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */; };
+		3A329C2F16F16E1A0040362A /* YKGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2E16F16E1A0040362A /* YKGraphView.m */; };
+		3A329C4716F18A050040362A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52216E8FFC800265BE0 /* main.m */; };
+		3A329C4816F18A050040362A /* YKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */; };
+		3A329C4916F18A050040362A /* YKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD55D16E908AE00265BE0 /* YKViewController.m */; };
+		3A329C4A16F18A050040362A /* YKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD56716E9096F00265BE0 /* YKAppManager.m */; };
+		3A329C4B16F18A050040362A /* YKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0E516EDA6D400F37DDC /* YKBaseViewController.m */; };
+		3A329C4C16F18A050040362A /* YKFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0EB16EDADF900F37DDC /* YKFileCell.m */; };
+		3A329C4D16F18A050040362A /* PullToRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0F016EDB06B00F37DDC /* PullToRefreshHeaderView.m */; };
+		3A329C4E16F18A050040362A /* YKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B10F16EDC9FE00F37DDC /* YKDetailViewController.m */; };
+		3A329C4F16F18A050040362A /* YKFileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11616EDCFA800F37DDC /* YKFileManager.xcdatamodeld */; };
+		3A329C5016F18A050040362A /* YKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11A16EDD34E00F37DDC /* YKDataManager.m */; };
+		3A329C5116F18A050040362A /* YKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11E16EDD63600F37DDC /* YKFile.m */; };
+		3A329C5216F18A050040362A /* YKSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B12216EDD70B00F37DDC /* YKSpace.m */; };
+		3A329C5316F18A050040362A /* YKFileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7395716F0D4EC008D7954 /* YKFileContainer.m */; };
+		3A329C5416F18A050040362A /* YKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2916F16DCE0040362A /* YKInfoViewController.m */; };
+		3A329C5516F18A050040362A /* YKGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2E16F16E1A0040362A /* YKGraphView.m */; };
+		3A329C5716F18A050040362A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75B11416EDCF4700F37DDC /* CoreData.framework */; };
+		3A329C5816F18A050040362A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51616E8FFC800265BE0 /* UIKit.framework */; };
+		3A329C5916F18A050040362A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51816E8FFC800265BE0 /* Foundation.framework */; };
+		3A329C5A16F18A050040362A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */; };
+		3A329C5B16F18A050040362A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9A9E0DDC7F4F23B60DBF73 /* libPods.a */; };
+		3A329C5D16F18A050040362A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52816E8FFC800265BE0 /* Default.png */; };
+		3A329C5E16F18A050040362A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52A16E8FFC800265BE0 /* Default@2x.png */; };
+		3A329C5F16F18A050040362A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */; };
+		3A329C6016F18A050040362A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD55416E9089E00265BE0 /* InfoPlist.strings */; };
+		3A329C6116F18A050040362A /* YKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0E116EDA6AA00F37DDC /* YKViewController.xib */; };
+		3A329C6216F18A050040362A /* YKFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0EC16EDADF900F37DDC /* YKFileCell.xib */; };
+		3A329C6316F18A050040362A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F216EDC01200F37DDC /* icon@2x.png */; };
+		3A329C6416F18A050040362A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F416EDC01600F37DDC /* icon.png */; };
+		3A329C6516F18A050040362A /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F616EDC02200F37DDC /* icon-iPad.png */; };
+		3A329C6616F18A050040362A /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */; };
+		3A329C6716F18A050040362A /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */; };
+		3A329C6816F18A050040362A /* cubeGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FD16EDC2BA00F37DDC /* cubeGreen@2x.png */; };
+		3A329C6916F18A050040362A /* cubeOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FE16EDC2BA00F37DDC /* cubeOrange@2x.png */; };
+		3A329C6A16F18A050040362A /* cubeRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FF16EDC2BA00F37DDC /* cubeRed@2x.png */; };
+		3A329C6B16F18A050040362A /* cubeGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10316EDC35F00F37DDC /* cubeGreen.png */; };
+		3A329C6C16F18A050040362A /* cubeOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10416EDC35F00F37DDC /* cubeOrange.png */; };
+		3A329C6D16F18A050040362A /* cubeRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10516EDC35F00F37DDC /* cubeRed.png */; };
+		3A329C6E16F18A050040362A /* cubeGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10916EDC6B900F37DDC /* cubeGray.png */; };
+		3A329C6F16F18A050040362A /* cubeGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10A16EDC6B900F37DDC /* cubeGray@2x.png */; };
+		3A329C7016F18A050040362A /* YKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */; };
+		3A329C7116F18A050040362A /* YKInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */; };
+		3A329C7916F18A3B0040362A /* YKFileManager-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A329C7816F18A3B0040362A /* YKFileManager-Info.plist */; };
+		3A329C7C16F18A740040362A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52216E8FFC800265BE0 /* main.m */; };
+		3A329C7D16F18A740040362A /* YKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */; };
+		3A329C7E16F18A740040362A /* YKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD55D16E908AE00265BE0 /* YKViewController.m */; };
+		3A329C7F16F18A740040362A /* YKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD56716E9096F00265BE0 /* YKAppManager.m */; };
+		3A329C8016F18A740040362A /* YKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0E516EDA6D400F37DDC /* YKBaseViewController.m */; };
+		3A329C8116F18A740040362A /* YKFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0EB16EDADF900F37DDC /* YKFileCell.m */; };
+		3A329C8216F18A740040362A /* PullToRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0F016EDB06B00F37DDC /* PullToRefreshHeaderView.m */; };
+		3A329C8316F18A740040362A /* YKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B10F16EDC9FE00F37DDC /* YKDetailViewController.m */; };
+		3A329C8416F18A740040362A /* YKFileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11616EDCFA800F37DDC /* YKFileManager.xcdatamodeld */; };
+		3A329C8516F18A740040362A /* YKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11A16EDD34E00F37DDC /* YKDataManager.m */; };
+		3A329C8616F18A740040362A /* YKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11E16EDD63600F37DDC /* YKFile.m */; };
+		3A329C8716F18A740040362A /* YKSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B12216EDD70B00F37DDC /* YKSpace.m */; };
+		3A329C8816F18A740040362A /* YKFileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7395716F0D4EC008D7954 /* YKFileContainer.m */; };
+		3A329C8916F18A740040362A /* YKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2916F16DCE0040362A /* YKInfoViewController.m */; };
+		3A329C8A16F18A740040362A /* YKGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2E16F16E1A0040362A /* YKGraphView.m */; };
+		3A329C8C16F18A740040362A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75B11416EDCF4700F37DDC /* CoreData.framework */; };
+		3A329C8D16F18A740040362A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51616E8FFC800265BE0 /* UIKit.framework */; };
+		3A329C8E16F18A740040362A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51816E8FFC800265BE0 /* Foundation.framework */; };
+		3A329C8F16F18A740040362A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */; };
+		3A329C9016F18A740040362A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9A9E0DDC7F4F23B60DBF73 /* libPods.a */; };
+		3A329C9216F18A740040362A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52816E8FFC800265BE0 /* Default.png */; };
+		3A329C9316F18A740040362A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52A16E8FFC800265BE0 /* Default@2x.png */; };
+		3A329C9416F18A740040362A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */; };
+		3A329C9516F18A740040362A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD55416E9089E00265BE0 /* InfoPlist.strings */; };
+		3A329C9616F18A740040362A /* YKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0E116EDA6AA00F37DDC /* YKViewController.xib */; };
+		3A329C9716F18A740040362A /* YKFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0EC16EDADF900F37DDC /* YKFileCell.xib */; };
+		3A329C9816F18A740040362A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F216EDC01200F37DDC /* icon@2x.png */; };
+		3A329C9916F18A740040362A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F416EDC01600F37DDC /* icon.png */; };
+		3A329C9A16F18A740040362A /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F616EDC02200F37DDC /* icon-iPad.png */; };
+		3A329C9B16F18A740040362A /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */; };
+		3A329C9C16F18A740040362A /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */; };
+		3A329C9D16F18A740040362A /* cubeGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FD16EDC2BA00F37DDC /* cubeGreen@2x.png */; };
+		3A329C9E16F18A740040362A /* cubeOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FE16EDC2BA00F37DDC /* cubeOrange@2x.png */; };
+		3A329C9F16F18A740040362A /* cubeRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FF16EDC2BA00F37DDC /* cubeRed@2x.png */; };
+		3A329CA016F18A740040362A /* cubeGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10316EDC35F00F37DDC /* cubeGreen.png */; };
+		3A329CA116F18A740040362A /* cubeOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10416EDC35F00F37DDC /* cubeOrange.png */; };
+		3A329CA216F18A740040362A /* cubeRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10516EDC35F00F37DDC /* cubeRed.png */; };
+		3A329CA316F18A740040362A /* cubeGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10916EDC6B900F37DDC /* cubeGray.png */; };
+		3A329CA416F18A740040362A /* cubeGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10A16EDC6B900F37DDC /* cubeGray@2x.png */; };
+		3A329CA516F18A740040362A /* YKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */; };
+		3A329CA616F18A740040362A /* YKInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */; };
+		3A329CAF16F18A9F0040362A /* YKFileManagerARC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A329CAE16F18A9F0040362A /* YKFileManagerARC-Info.plist */; };
+		3A329CB016F190130040362A /* YakimbiIosTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD51E16E8FFC800265BE0 /* YakimbiIosTest-Info.plist */; };
+		3A75B0E316EDA6AA00F37DDC /* YKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0E116EDA6AA00F37DDC /* YKViewController.xib */; };
+		3A75B0E616EDA6D400F37DDC /* YKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0E516EDA6D400F37DDC /* YKBaseViewController.m */; };
+		3A75B0ED16EDADF900F37DDC /* YKFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0EB16EDADF900F37DDC /* YKFileCell.m */; };
+		3A75B0EE16EDADF900F37DDC /* YKFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0EC16EDADF900F37DDC /* YKFileCell.xib */; };
+		3A75B0F116EDB06C00F37DDC /* PullToRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0F016EDB06B00F37DDC /* PullToRefreshHeaderView.m */; };
+		3A75B0F316EDC01200F37DDC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F216EDC01200F37DDC /* icon@2x.png */; };
+		3A75B0F516EDC01600F37DDC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F416EDC01600F37DDC /* icon.png */; };
+		3A75B0F716EDC02200F37DDC /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F616EDC02200F37DDC /* icon-iPad.png */; };
+		3A75B0F916EDC0AB00F37DDC /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */; };
+		3A75B0FB16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */; };
+		3A75B10016EDC2BA00F37DDC /* cubeGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FD16EDC2BA00F37DDC /* cubeGreen@2x.png */; };
+		3A75B10116EDC2BA00F37DDC /* cubeOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FE16EDC2BA00F37DDC /* cubeOrange@2x.png */; };
+		3A75B10216EDC2BA00F37DDC /* cubeRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FF16EDC2BA00F37DDC /* cubeRed@2x.png */; };
+		3A75B10616EDC35F00F37DDC /* cubeGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10316EDC35F00F37DDC /* cubeGreen.png */; };
+		3A75B10716EDC35F00F37DDC /* cubeOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10416EDC35F00F37DDC /* cubeOrange.png */; };
+		3A75B10816EDC35F00F37DDC /* cubeRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10516EDC35F00F37DDC /* cubeRed.png */; };
+		3A75B10B16EDC6B900F37DDC /* cubeGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10916EDC6B900F37DDC /* cubeGray.png */; };
+		3A75B10C16EDC6B900F37DDC /* cubeGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10A16EDC6B900F37DDC /* cubeGray@2x.png */; };
+		3A75B11216EDC9FF00F37DDC /* YKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B10F16EDC9FE00F37DDC /* YKDetailViewController.m */; };
+		3A75B11316EDC9FF00F37DDC /* YKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */; };
+		3A75B11516EDCF4700F37DDC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75B11416EDCF4700F37DDC /* CoreData.framework */; };
+		3A75B11816EDCFA800F37DDC /* YKFileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11616EDCFA800F37DDC /* YKFileManager.xcdatamodeld */; };
+		3A75B11B16EDD34E00F37DDC /* YKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11A16EDD34E00F37DDC /* YKDataManager.m */; };
+		3A75B11F16EDD63600F37DDC /* YKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11E16EDD63600F37DDC /* YKFile.m */; };
+		3A75B12016EDD63600F37DDC /* YKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11E16EDD63600F37DDC /* YKFile.m */; };
+		3A75B12316EDD70B00F37DDC /* YKSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B12216EDD70B00F37DDC /* YKSpace.m */; };
+		3A75B12416EDD70B00F37DDC /* YKSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B12216EDD70B00F37DDC /* YKSpace.m */; };
+		3AACD51716E8FFC800265BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51616E8FFC800265BE0 /* UIKit.framework */; };
+		3AACD51916E8FFC800265BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51816E8FFC800265BE0 /* Foundation.framework */; };
+		3AACD51B16E8FFC800265BE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */; };
+		3AACD52316E8FFC800265BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52216E8FFC800265BE0 /* main.m */; };
+		3AACD52716E8FFC800265BE0 /* YKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */; };
+		3AACD52916E8FFC800265BE0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52816E8FFC800265BE0 /* Default.png */; };
+		3AACD52B16E8FFC800265BE0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52A16E8FFC800265BE0 /* Default@2x.png */; };
+		3AACD52D16E8FFC800265BE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */; };
+		3AACD53E16E8FFC800265BE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD53D16E8FFC800265BE0 /* SenTestingKit.framework */; };
+		3AACD53F16E8FFC800265BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51616E8FFC800265BE0 /* UIKit.framework */; };
+		3AACD54016E8FFC800265BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51816E8FFC800265BE0 /* Foundation.framework */; };
+		3AACD54816E8FFC800265BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD54616E8FFC800265BE0 /* InfoPlist.strings */; };
+		3AACD54B16E8FFC800265BE0 /* YakimbiIosTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD54A16E8FFC800265BE0 /* YakimbiIosTestTests.m */; };
+		3AACD55516E9089E00265BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD55416E9089E00265BE0 /* InfoPlist.strings */; };
+		3AACD55616E9089E00265BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD55416E9089E00265BE0 /* InfoPlist.strings */; };
+		3AACD56016E908AE00265BE0 /* YKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD55D16E908AE00265BE0 /* YKViewController.m */; };
+		3AACD56816E9096F00265BE0 /* YKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD56716E9096F00265BE0 /* YKAppManager.m */; };
+		3AD7395816F0D4EC008D7954 /* YKFileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7395716F0D4EC008D7954 /* YKFileContainer.m */; };
+		3AD7395916F0D4EC008D7954 /* YKFileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7395716F0D4EC008D7954 /* YKFileContainer.m */; };
+		7B365F5B31654ACA9A27F50A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9A9E0DDC7F4F23B60DBF73 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AACD54116E8FFC800265BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AACD50B16E8FFC800265BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AACD51216E8FFC800265BE0;
+			remoteInfo = YakimbiIosTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A329C2816F16DCE0040362A /* YKInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKInfoViewController.h; sourceTree = "<group>"; };
+		3A329C2916F16DCE0040362A /* YKInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKInfoViewController.m; sourceTree = "<group>"; };
+		3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKInfoViewController.xib; sourceTree = "<group>"; };
+		3A329C2D16F16E1A0040362A /* YKGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKGraphView.h; sourceTree = "<group>"; };
+		3A329C2E16F16E1A0040362A /* YKGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKGraphView.m; sourceTree = "<group>"; };
+		3A329C7616F18A050040362A /* YKFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A329C7816F18A3B0040362A /* YKFileManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YKFileManager-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3A329CAC16F18A740040362A /* YKFileManagerARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKFileManagerARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A329CAE16F18A9F0040362A /* YKFileManagerARC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YKFileManagerARC-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3A75B0E116EDA6AA00F37DDC /* YKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKViewController.xib; sourceTree = "<group>"; };
+		3A75B0E416EDA6D400F37DDC /* YKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKBaseViewController.h; sourceTree = "<group>"; };
+		3A75B0E516EDA6D400F37DDC /* YKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKBaseViewController.m; sourceTree = "<group>"; };
+		3A75B0EA16EDADF900F37DDC /* YKFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFileCell.h; sourceTree = "<group>"; };
+		3A75B0EB16EDADF900F37DDC /* YKFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFileCell.m; sourceTree = "<group>"; };
+		3A75B0EC16EDADF900F37DDC /* YKFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKFileCell.xib; sourceTree = "<group>"; };
+		3A75B0EF16EDB06B00F37DDC /* PullToRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshHeaderView.h; sourceTree = "<group>"; };
+		3A75B0F016EDB06B00F37DDC /* PullToRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshHeaderView.m; sourceTree = "<group>"; };
+		3A75B0F216EDC01200F37DDC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		3A75B0F416EDC01600F37DDC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3A75B0F616EDC02200F37DDC /* icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad.png"; sourceTree = "<group>"; };
+		3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad@2x.png"; sourceTree = "<group>"; };
+		3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3A75B0FD16EDC2BA00F37DDC /* cubeGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cubeGreen@2x.png"; sourceTree = "<group>"; };
+		3A75B0FE16EDC2BA00F37DDC /* cubeOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cubeOrange@2x.png"; sourceTree = "<group>"; };
+		3A75B0FF16EDC2BA00F37DDC /* cubeRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cubeRed@2x.png"; sourceTree = "<group>"; };
+		3A75B10316EDC35F00F37DDC /* cubeGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubeGreen.png; sourceTree = "<group>"; };
+		3A75B10416EDC35F00F37DDC /* cubeOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubeOrange.png; sourceTree = "<group>"; };
+		3A75B10516EDC35F00F37DDC /* cubeRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubeRed.png; sourceTree = "<group>"; };
+		3A75B10916EDC6B900F37DDC /* cubeGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubeGray.png; sourceTree = "<group>"; };
+		3A75B10A16EDC6B900F37DDC /* cubeGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cubeGray@2x.png"; sourceTree = "<group>"; };
+		3A75B10E16EDC9FD00F37DDC /* YKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKDetailViewController.h; sourceTree = "<group>"; };
+		3A75B10F16EDC9FE00F37DDC /* YKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKDetailViewController.m; sourceTree = "<group>"; };
+		3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKDetailViewController.xib; sourceTree = "<group>"; };
+		3A75B11416EDCF4700F37DDC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A75B11716EDCFA800F37DDC /* YKFileManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YKFileManager.xcdatamodel; sourceTree = "<group>"; };
+		3A75B11916EDD34E00F37DDC /* YKDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKDataManager.h; sourceTree = "<group>"; };
+		3A75B11A16EDD34E00F37DDC /* YKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKDataManager.m; sourceTree = "<group>"; };
+		3A75B11D16EDD63600F37DDC /* YKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFile.h; sourceTree = "<group>"; };
+		3A75B11E16EDD63600F37DDC /* YKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFile.m; sourceTree = "<group>"; };
+		3A75B12116EDD70A00F37DDC /* YKSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSpace.h; sourceTree = "<group>"; };
+		3A75B12216EDD70B00F37DDC /* YKSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSpace.m; sourceTree = "<group>"; };
+		3AACD51316E8FFC800265BE0 /* YakimbiIosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YakimbiIosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AACD51616E8FFC800265BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AACD51816E8FFC800265BE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AACD51E16E8FFC800265BE0 /* YakimbiIosTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YakimbiIosTest-Info.plist"; sourceTree = "<group>"; };
+		3AACD52216E8FFC800265BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AACD52416E8FFC800265BE0 /* YakimbiIosTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YakimbiIosTest-Prefix.pch"; sourceTree = "<group>"; };
+		3AACD52516E8FFC800265BE0 /* YKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKAppDelegate.h; sourceTree = "<group>"; };
+		3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKAppDelegate.m; sourceTree = "<group>"; };
+		3AACD52816E8FFC800265BE0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3AACD52A16E8FFC800265BE0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3AACD53C16E8FFC800265BE0 /* YakimbiIosTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YakimbiIosTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AACD53D16E8FFC800265BE0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AACD54516E8FFC800265BE0 /* YakimbiIosTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YakimbiIosTestTests-Info.plist"; sourceTree = "<group>"; };
+		3AACD54716E8FFC800265BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AACD54916E8FFC800265BE0 /* YakimbiIosTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YakimbiIosTestTests.h; sourceTree = "<group>"; };
+		3AACD54A16E8FFC800265BE0 /* YakimbiIosTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YakimbiIosTestTests.m; sourceTree = "<group>"; };
+		3AACD55416E9089E00265BE0 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3AACD55C16E908AE00265BE0 /* YKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKViewController.h; sourceTree = "<group>"; };
+		3AACD55D16E908AE00265BE0 /* YKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKViewController.m; sourceTree = "<group>"; };
+		3AACD56216E908D100265BE0 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		3AACD56316E908D100265BE0 /* DevDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevDefines.h; sourceTree = "<group>"; };
+		3AACD56416E908D100265BE0 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		3AACD56616E9096F00265BE0 /* YKAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKAppManager.h; sourceTree = "<group>"; };
+		3AACD56716E9096F00265BE0 /* YKAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKAppManager.m; sourceTree = "<group>"; };
+		3AACD56916E909D600265BE0 /* SingletonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonHelper.h; sourceTree = "<group>"; };
+		3AD7395616F0D4EC008D7954 /* YKFileContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFileContainer.h; sourceTree = "<group>"; };
+		3AD7395716F0D4EC008D7954 /* YKFileContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFileContainer.m; sourceTree = "<group>"; };
+		66EA622D6F52491CAE73752D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9A9A9E0DDC7F4F23B60DBF73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A329C5616F18A050040362A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A329C5716F18A050040362A /* CoreData.framework in Frameworks */,
+				3A329C5816F18A050040362A /* UIKit.framework in Frameworks */,
+				3A329C5916F18A050040362A /* Foundation.framework in Frameworks */,
+				3A329C5A16F18A050040362A /* CoreGraphics.framework in Frameworks */,
+				3A329C5B16F18A050040362A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A329C8B16F18A740040362A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A329C8C16F18A740040362A /* CoreData.framework in Frameworks */,
+				3A329C8D16F18A740040362A /* UIKit.framework in Frameworks */,
+				3A329C8E16F18A740040362A /* Foundation.framework in Frameworks */,
+				3A329C8F16F18A740040362A /* CoreGraphics.framework in Frameworks */,
+				3A329C9016F18A740040362A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AACD51016E8FFC800265BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A75B11516EDCF4700F37DDC /* CoreData.framework in Frameworks */,
+				3AACD51716E8FFC800265BE0 /* UIKit.framework in Frameworks */,
+				3AACD51916E8FFC800265BE0 /* Foundation.framework in Frameworks */,
+				3AACD51B16E8FFC800265BE0 /* CoreGraphics.framework in Frameworks */,
+				7B365F5B31654ACA9A27F50A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AACD53816E8FFC800265BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AACD53E16E8FFC800265BE0 /* SenTestingKit.framework in Frameworks */,
+				3AACD53F16E8FFC800265BE0 /* UIKit.framework in Frameworks */,
+				3AACD54016E8FFC800265BE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A75B0DF16EDA6AA00F37DDC /* base */ = {
+			isa = PBXGroup;
+			children = (
+				3A75B0E416EDA6D400F37DDC /* YKBaseViewController.h */,
+				3A75B0E516EDA6D400F37DDC /* YKBaseViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		3A75B0E916EDADD600F37DDC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A75B0EF16EDB06B00F37DDC /* PullToRefreshHeaderView.h */,
+				3A75B0F016EDB06B00F37DDC /* PullToRefreshHeaderView.m */,
+				3A75B0EA16EDADF900F37DDC /* YKFileCell.h */,
+				3A75B0EB16EDADF900F37DDC /* YKFileCell.m */,
+				3A75B0EC16EDADF900F37DDC /* YKFileCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		3A75B0FC16EDC2BA00F37DDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A75B10916EDC6B900F37DDC /* cubeGray.png */,
+				3A75B10A16EDC6B900F37DDC /* cubeGray@2x.png */,
+				3A75B10316EDC35F00F37DDC /* cubeGreen.png */,
+				3A75B10416EDC35F00F37DDC /* cubeOrange.png */,
+				3A75B10516EDC35F00F37DDC /* cubeRed.png */,
+				3A75B0FD16EDC2BA00F37DDC /* cubeGreen@2x.png */,
+				3A75B0FE16EDC2BA00F37DDC /* cubeOrange@2x.png */,
+				3A75B0FF16EDC2BA00F37DDC /* cubeRed@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A75B11C16EDD63600F37DDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AD7395616F0D4EC008D7954 /* YKFileContainer.h */,
+				3AD7395716F0D4EC008D7954 /* YKFileContainer.m */,
+				3A75B12116EDD70A00F37DDC /* YKSpace.h */,
+				3A75B12216EDD70B00F37DDC /* YKSpace.m */,
+				3A75B11D16EDD63600F37DDC /* YKFile.h */,
+				3A75B11E16EDD63600F37DDC /* YKFile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AACD50A16E8FFC800265BE0 = {
+			isa = PBXGroup;
+			children = (
+				3A75B11416EDCF4700F37DDC /* CoreData.framework */,
+				3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */,
+				3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */,
+				3A75B0F616EDC02200F37DDC /* icon-iPad.png */,
+				3A75B0F416EDC01600F37DDC /* icon.png */,
+				3A75B0F216EDC01200F37DDC /* icon@2x.png */,
+				3AACD51C16E8FFC800265BE0 /* YakimbiIosTest */,
+				3AACD54316E8FFC800265BE0 /* YakimbiIosTestTests */,
+				3AACD51516E8FFC800265BE0 /* Frameworks */,
+				3AACD51416E8FFC800265BE0 /* Products */,
+				66EA622D6F52491CAE73752D /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3AACD51416E8FFC800265BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AACD51316E8FFC800265BE0 /* YakimbiIosTest.app */,
+				3AACD53C16E8FFC800265BE0 /* YakimbiIosTestTests.octest */,
+				3A329C7616F18A050040362A /* YKFileManager.app */,
+				3A329CAC16F18A740040362A /* YKFileManagerARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AACD51516E8FFC800265BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AACD51616E8FFC800265BE0 /* UIKit.framework */,
+				3AACD51816E8FFC800265BE0 /* Foundation.framework */,
+				3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */,
+				3AACD53D16E8FFC800265BE0 /* SenTestingKit.framework */,
+				9A9A9E0DDC7F4F23B60DBF73 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AACD51C16E8FFC800265BE0 /* YakimbiIosTest */ = {
+			isa = PBXGroup;
+			children = (
+				3A75B0FC16EDC2BA00F37DDC /* Resources */,
+				3AACD56516E9096F00265BE0 /* Data */,
+				3AACD56116E908D100265BE0 /* Utils */,
+				3AACD55716E908AE00265BE0 /* ViewControllers */,
+				3AACD52516E8FFC800265BE0 /* YKAppDelegate.h */,
+				3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */,
+				3AACD51D16E8FFC800265BE0 /* Supporting Files */,
+			);
+			path = YakimbiIosTest;
+			sourceTree = "<group>";
+		};
+		3AACD51D16E8FFC800265BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AACD55416E9089E00265BE0 /* InfoPlist.strings */,
+				3AACD51E16E8FFC800265BE0 /* YakimbiIosTest-Info.plist */,
+				3A329C7816F18A3B0040362A /* YKFileManager-Info.plist */,
+				3A329CAE16F18A9F0040362A /* YKFileManagerARC-Info.plist */,
+				3AACD52216E8FFC800265BE0 /* main.m */,
+				3AACD52416E8FFC800265BE0 /* YakimbiIosTest-Prefix.pch */,
+				3AACD52816E8FFC800265BE0 /* Default.png */,
+				3AACD52A16E8FFC800265BE0 /* Default@2x.png */,
+				3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AACD54316E8FFC800265BE0 /* YakimbiIosTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AACD54916E8FFC800265BE0 /* YakimbiIosTestTests.h */,
+				3AACD54A16E8FFC800265BE0 /* YakimbiIosTestTests.m */,
+				3AACD54416E8FFC800265BE0 /* Supporting Files */,
+			);
+			path = YakimbiIosTestTests;
+			sourceTree = "<group>";
+		};
+		3AACD54416E8FFC800265BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AACD54516E8FFC800265BE0 /* YakimbiIosTestTests-Info.plist */,
+				3AACD54616E8FFC800265BE0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AACD55716E908AE00265BE0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A75B0E916EDADD600F37DDC /* cell */,
+				3A75B0DF16EDA6AA00F37DDC /* base */,
+				3AACD55C16E908AE00265BE0 /* YKViewController.h */,
+				3AACD55D16E908AE00265BE0 /* YKViewController.m */,
+				3A75B0E116EDA6AA00F37DDC /* YKViewController.xib */,
+				3A75B10E16EDC9FD00F37DDC /* YKDetailViewController.h */,
+				3A75B10F16EDC9FE00F37DDC /* YKDetailViewController.m */,
+				3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */,
+				3A329C2816F16DCE0040362A /* YKInfoViewController.h */,
+				3A329C2916F16DCE0040362A /* YKInfoViewController.m */,
+				3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */,
+				3A329C2D16F16E1A0040362A /* YKGraphView.h */,
+				3A329C2E16F16E1A0040362A /* YKGraphView.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3AACD56116E908D100265BE0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3AACD56916E909D600265BE0 /* SingletonHelper.h */,
+				3AACD56216E908D100265BE0 /* Defines.h */,
+				3AACD56316E908D100265BE0 /* DevDefines.h */,
+				3AACD56416E908D100265BE0 /* Logging.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3AACD56516E9096F00265BE0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A75B11C16EDD63600F37DDC /* Model */,
+				3A75B11916EDD34E00F37DDC /* YKDataManager.h */,
+				3A75B11A16EDD34E00F37DDC /* YKDataManager.m */,
+				3AACD56616E9096F00265BE0 /* YKAppManager.h */,
+				3AACD56716E9096F00265BE0 /* YKAppManager.m */,
+				3A75B11616EDCFA800F37DDC /* YKFileManager.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A329C4516F18A050040362A /* YKFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A329C7316F18A050040362A /* Build configuration list for PBXNativeTarget "YKFileManager" */;
+			buildPhases = (
+				3A329C4616F18A050040362A /* Sources */,
+				3A329C5616F18A050040362A /* Frameworks */,
+				3A329C5C16F18A050040362A /* Resources */,
+				3A329C7216F18A050040362A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKFileManager;
+			productName = YakimbiIosTest;
+			productReference = 3A329C7616F18A050040362A /* YKFileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A329C7A16F18A740040362A /* YKFileManagerARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A329CA916F18A740040362A /* Build configuration list for PBXNativeTarget "YKFileManagerARC" */;
+			buildPhases = (
+				3A329C7B16F18A740040362A /* Sources */,
+				3A329C8B16F18A740040362A /* Frameworks */,
+				3A329C9116F18A740040362A /* Resources */,
+				3A329CA816F18A740040362A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKFileManagerARC;
+			productName = YakimbiIosTest;
+			productReference = 3A329CAC16F18A740040362A /* YKFileManagerARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AACD51216E8FFC800265BE0 /* YakimbiIosTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AACD54E16E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTest" */;
+			buildPhases = (
+				3AACD50F16E8FFC800265BE0 /* Sources */,
+				3AACD51016E8FFC800265BE0 /* Frameworks */,
+				3AACD51116E8FFC800265BE0 /* Resources */,
+				729C2DB24EAB4924A0FDA5E0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YakimbiIosTest;
+			productName = YakimbiIosTest;
+			productReference = 3AACD51316E8FFC800265BE0 /* YakimbiIosTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AACD53B16E8FFC800265BE0 /* YakimbiIosTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AACD55116E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTestTests" */;
+			buildPhases = (
+				3AACD53716E8FFC800265BE0 /* Sources */,
+				3AACD53816E8FFC800265BE0 /* Frameworks */,
+				3AACD53916E8FFC800265BE0 /* Resources */,
+				3AACD53A16E8FFC800265BE0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AACD54216E8FFC800265BE0 /* PBXTargetDependency */,
+			);
+			name = YakimbiIosTestTests;
+			productName = YakimbiIosTestTests;
+			productReference = 3AACD53C16E8FFC800265BE0 /* YakimbiIosTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AACD50B16E8FFC800265BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrea Gonteri";
+			};
+			buildConfigurationList = 3AACD50E16E8FFC800265BE0 /* Build configuration list for PBXProject "YakimbiIosTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AACD50A16E8FFC800265BE0;
+			productRefGroup = 3AACD51416E8FFC800265BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AACD51216E8FFC800265BE0 /* YakimbiIosTest */,
+				3AACD53B16E8FFC800265BE0 /* YakimbiIosTestTests */,
+				3A329C4516F18A050040362A /* YKFileManager */,
+				3A329C7A16F18A740040362A /* YKFileManagerARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A329C5C16F18A050040362A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A329C5D16F18A050040362A /* Default.png in Resources */,
+				3A329C5E16F18A050040362A /* Default@2x.png in Resources */,
+				3A329C5F16F18A050040362A /* Default-568h@2x.png in Resources */,
+				3A329C6016F18A050040362A /* InfoPlist.strings in Resources */,
+				3A329C6116F18A050040362A /* YKViewController.xib in Resources */,
+				3A329C6216F18A050040362A /* YKFileCell.xib in Resources */,
+				3A329C6316F18A050040362A /* icon@2x.png in Resources */,
+				3A329C6416F18A050040362A /* icon.png in Resources */,
+				3A329C6516F18A050040362A /* icon-iPad.png in Resources */,
+				3A329C6616F18A050040362A /* icon-iPad@2x.png in Resources */,
+				3A329C6716F18A050040362A /* Default-Portrait@2x~ipad.png in Resources */,
+				3A329C6816F18A050040362A /* cubeGreen@2x.png in Resources */,
+				3A329C6916F18A050040362A /* cubeOrange@2x.png in Resources */,
+				3A329C6A16F18A050040362A /* cubeRed@2x.png in Resources */,
+				3A329C6B16F18A050040362A /* cubeGreen.png in Resources */,
+				3A329C6C16F18A050040362A /* cubeOrange.png in Resources */,
+				3A329C6D16F18A050040362A /* cubeRed.png in Resources */,
+				3A329C6E16F18A050040362A /* cubeGray.png in Resources */,
+				3A329C6F16F18A050040362A /* cubeGray@2x.png in Resources */,
+				3A329C7016F18A050040362A /* YKDetailViewController.xib in Resources */,
+				3A329C7116F18A050040362A /* YKInfoViewController.xib in Resources */,
+				3A329C7916F18A3B0040362A /* YKFileManager-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A329C9116F18A740040362A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A329C9216F18A740040362A /* Default.png in Resources */,
+				3A329C9316F18A740040362A /* Default@2x.png in Resources */,
+				3A329C9416F18A740040362A /* Default-568h@2x.png in Resources */,
+				3A329C9516F18A740040362A /* InfoPlist.strings in Resources */,
+				3A329C9616F18A740040362A /* YKViewController.xib in Resources */,
+				3A329C9716F18A740040362A /* YKFileCell.xib in Resources */,
+				3A329C9816F18A740040362A /* icon@2x.png in Resources */,
+				3A329C9916F18A740040362A /* icon.png in Resources */,
+				3A329C9A16F18A740040362A /* icon-iPad.png in Resources */,
+				3A329C9B16F18A740040362A /* icon-iPad@2x.png in Resources */,
+				3A329C9C16F18A740040362A /* Default-Portrait@2x~ipad.png in Resources */,
+				3A329C9D16F18A740040362A /* cubeGreen@2x.png in Resources */,
+				3A329C9E16F18A740040362A /* cubeOrange@2x.png in Resources */,
+				3A329C9F16F18A740040362A /* cubeRed@2x.png in Resources */,
+				3A329CA016F18A740040362A /* cubeGreen.png in Resources */,
+				3A329CA116F18A740040362A /* cubeOrange.png in Resources */,
+				3A329CA216F18A740040362A /* cubeRed.png in Resources */,
+				3A329CA316F18A740040362A /* cubeGray.png in Resources */,
+				3A329CA416F18A740040362A /* cubeGray@2x.png in Resources */,
+				3A329CA516F18A740040362A /* YKDetailViewController.xib in Resources */,
+				3A329CA616F18A740040362A /* YKInfoViewController.xib in Resources */,
+				3A329CAF16F18A9F0040362A /* YKFileManagerARC-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AACD51116E8FFC800265BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AACD52916E8FFC800265BE0 /* Default.png in Resources */,
+				3AACD52B16E8FFC800265BE0 /* Default@2x.png in Resources */,
+				3AACD52D16E8FFC800265BE0 /* Default-568h@2x.png in Resources */,
+				3AACD55516E9089E00265BE0 /* InfoPlist.strings in Resources */,
+				3A75B0E316EDA6AA00F37DDC /* YKViewController.xib in Resources */,
+				3A75B0EE16EDADF900F37DDC /* YKFileCell.xib in Resources */,
+				3A75B0F316EDC01200F37DDC /* icon@2x.png in Resources */,
+				3A75B0F516EDC01600F37DDC /* icon.png in Resources */,
+				3A75B0F716EDC02200F37DDC /* icon-iPad.png in Resources */,
+				3A75B0F916EDC0AB00F37DDC /* icon-iPad@2x.png in Resources */,
+				3A75B0FB16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png in Resources */,
+				3A75B10016EDC2BA00F37DDC /* cubeGreen@2x.png in Resources */,
+				3A75B10116EDC2BA00F37DDC /* cubeOrange@2x.png in Resources */,
+				3A75B10216EDC2BA00F37DDC /* cubeRed@2x.png in Resources */,
+				3A75B10616EDC35F00F37DDC /* cubeGreen.png in Resources */,
+				3A75B10716EDC35F00F37DDC /* cubeOrange.png in Resources */,
+				3A75B10816EDC35F00F37DDC /* cubeRed.png in Resources */,
+				3A75B10B16EDC6B900F37DDC /* cubeGray.png in Resources */,
+				3A75B10C16EDC6B900F37DDC /* cubeGray@2x.png in Resources */,
+				3A75B11316EDC9FF00F37DDC /* YKDetailViewController.xib in Resources */,
+				3A329C2C16F16DCE0040362A /* YKInfoViewController.xib in Resources */,
+				3A329CB016F190130040362A /* YakimbiIosTest-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AACD53916E8FFC800265BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AACD54816E8FFC800265BE0 /* InfoPlist.strings in Resources */,
+				3AACD55616E9089E00265BE0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A329C7216F18A050040362A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		3A329CA816F18A740040362A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		3AACD53A16E8FFC800265BE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		729C2DB24EAB4924A0FDA5E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A329C4616F18A050040362A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A329C4716F18A050040362A /* main.m in Sources */,
+				3A329C4816F18A050040362A /* YKAppDelegate.m in Sources */,
+				3A329C4916F18A050040362A /* YKViewController.m in Sources */,
+				3A329C4A16F18A050040362A /* YKAppManager.m in Sources */,
+				3A329C4B16F18A050040362A /* YKBaseViewController.m in Sources */,
+				3A329C4C16F18A050040362A /* YKFileCell.m in Sources */,
+				3A329C4D16F18A050040362A /* PullToRefreshHeaderView.m in Sources */,
+				3A329C4E16F18A050040362A /* YKDetailViewController.m in Sources */,
+				3A329C4F16F18A050040362A /* YKFileManager.xcdatamodeld in Sources */,
+				3A329C5016F18A050040362A /* YKDataManager.m in Sources */,
+				3A329C5116F18A050040362A /* YKFile.m in Sources */,
+				3A329C5216F18A050040362A /* YKSpace.m in Sources */,
+				3A329C5316F18A050040362A /* YKFileContainer.m in Sources */,
+				3A329C5416F18A050040362A /* YKInfoViewController.m in Sources */,
+				3A329C5516F18A050040362A /* YKGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A329C7B16F18A740040362A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A329C7C16F18A740040362A /* main.m in Sources */,
+				3A329C7D16F18A740040362A /* YKAppDelegate.m in Sources */,
+				3A329C7E16F18A740040362A /* YKViewController.m in Sources */,
+				3A329C7F16F18A740040362A /* YKAppManager.m in Sources */,
+				3A329C8016F18A740040362A /* YKBaseViewController.m in Sources */,
+				3A329C8116F18A740040362A /* YKFileCell.m in Sources */,
+				3A329C8216F18A740040362A /* PullToRefreshHeaderView.m in Sources */,
+				3A329C8316F18A740040362A /* YKDetailViewController.m in Sources */,
+				3A329C8416F18A740040362A /* YKFileManager.xcdatamodeld in Sources */,
+				3A329C8516F18A740040362A /* YKDataManager.m in Sources */,
+				3A329C8616F18A740040362A /* YKFile.m in Sources */,
+				3A329C8716F18A740040362A /* YKSpace.m in Sources */,
+				3A329C8816F18A740040362A /* YKFileContainer.m in Sources */,
+				3A329C8916F18A740040362A /* YKInfoViewController.m in Sources */,
+				3A329C8A16F18A740040362A /* YKGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AACD50F16E8FFC800265BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AACD52316E8FFC800265BE0 /* main.m in Sources */,
+				3AACD52716E8FFC800265BE0 /* YKAppDelegate.m in Sources */,
+				3AACD56016E908AE00265BE0 /* YKViewController.m in Sources */,
+				3AACD56816E9096F00265BE0 /* YKAppManager.m in Sources */,
+				3A75B0E616EDA6D400F37DDC /* YKBaseViewController.m in Sources */,
+				3A75B0ED16EDADF900F37DDC /* YKFileCell.m in Sources */,
+				3A75B0F116EDB06C00F37DDC /* PullToRefreshHeaderView.m in Sources */,
+				3A75B11216EDC9FF00F37DDC /* YKDetailViewController.m in Sources */,
+				3A75B11816EDCFA800F37DDC /* YKFileManager.xcdatamodeld in Sources */,
+				3A75B11B16EDD34E00F37DDC /* YKDataManager.m in Sources */,
+				3A75B11F16EDD63600F37DDC /* YKFile.m in Sources */,
+				3A75B12316EDD70B00F37DDC /* YKSpace.m in Sources */,
+				3AD7395816F0D4EC008D7954 /* YKFileContainer.m in Sources */,
+				3A329C2B16F16DCE0040362A /* YKInfoViewController.m in Sources */,
+				3A329C2F16F16E1A0040362A /* YKGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AACD53716E8FFC800265BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AACD54B16E8FFC800265BE0 /* YakimbiIosTestTests.m in Sources */,
+				3A75B12016EDD63600F37DDC /* YKFile.m in Sources */,
+				3A75B12416EDD70B00F37DDC /* YKSpace.m in Sources */,
+				3AD7395916F0D4EC008D7954 /* YKFileContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AACD54216E8FFC800265BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AACD51216E8FFC800265BE0 /* YakimbiIosTest */;
+			targetProxy = 3AACD54116E8FFC800265BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AACD54616E8FFC800265BE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AACD54716E8FFC800265BE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A329C7416F18A050040362A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManager;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A329C7516F18A050040362A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManager;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A329CAA16F18A740040362A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManagerARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManagerARC;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A329CAB16F18A740040362A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManagerARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManagerARC;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AACD54C16E8FFC800265BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AACD54D16E8FFC800265BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AACD54F16E8FFC800265BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YakimbiIosTest/YakimbiIosTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AACD55016E8FFC800265BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YakimbiIosTest/YakimbiIosTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AACD55216E8FFC800265BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YakimbiIosTest.app/YakimbiIosTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YakimbiIosTestTests/YakimbiIosTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3AACD55316E8FFC800265BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YakimbiIosTest.app/YakimbiIosTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YakimbiIosTestTests/YakimbiIosTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A329C7316F18A050040362A /* Build configuration list for PBXNativeTarget "YKFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A329C7416F18A050040362A /* Debug */,
+				3A329C7516F18A050040362A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A329CA916F18A740040362A /* Build configuration list for PBXNativeTarget "YKFileManagerARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A329CAA16F18A740040362A /* Debug */,
+				3A329CAB16F18A740040362A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AACD50E16E8FFC800265BE0 /* Build configuration list for PBXProject "YakimbiIosTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AACD54C16E8FFC800265BE0 /* Debug */,
+				3AACD54D16E8FFC800265BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AACD54E16E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AACD54F16E8FFC800265BE0 /* Debug */,
+				3AACD55016E8FFC800265BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AACD55116E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AACD55216E8FFC800265BE0 /* Debug */,
+				3AACD55316E8FFC800265BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A75B11616EDCFA800F37DDC /* YKFileManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A75B11716EDCFA800F37DDC /* YKFileManager.xcdatamodel */,
+			);
+			currentVersion = 3A75B11716EDCFA800F37DDC /* YKFileManager.xcdatamodel */;
+			path = YKFileManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AACD50B16E8FFC800265BE0 /* Project object */;
+}

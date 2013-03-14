@@ -1,0 +1,9 @@
+platform :ios , '5.0'
+
+pod 'MBProgressHUD', '~> 0.5'
+
+pod 'InAppSettingsKit', '~> 1.0'
+
+pod 'DCIntrospect', '~> 0.0.2'
+
+pod 'ISO8601DateFormatter', '~> 0.6'

@@ -32,8 +32,8 @@ When you click on table view cell. Open pop over view controller with uitablevie
 
 ### Compatibility
 * iOs Deplyment Target iOS 5.0
-* iPhone/ iPad
-* works on ARC and non-ARC enviroment (more info @ Utils/Define.h )
+* iPhone / iPad
+* works automagically on ARC and non-ARC enviroment (more info @ Utils/Define.h )
 
 
 
