@@ -28,28 +28,44 @@ When you click on table view cell. Open pop over view controller with uitablevie
 
 --------
 
-## DEVELOPMENT
+## DEVELOPMENT  
+
+### Demo App
+* You can install a working demo from [here](http://lab.joinpad.net/rializer/yk/latest) (Enterprise Distribution)
+
+
 
 ### Compatibility
-* iOs Deplyment Target iOS 5.0
-* iPhone / iPad
-* works automagically on ARC and non-ARC enviroment (more info @ Utils/Define.h )
+* iOs Deployment Target iOS 5.1
+* iPhone - iPad
 
+### Features
+* Simple UI enhancement
+* Infinite scrolling for TableView pagination	
+* Pull-to-refresh in TableView header
+* Very simple Pie Chart implementation in YKGraphView
+* Works automagically on ARC and non-ARC enviroment - more info [Utils/DevDefines.h](https://github.com/RIAlizer/ios_test/blob/master/project/YakimbiIosTest/YakimbiIosTest/Utils/DevDefines.h "DevDefines.h")  
+	* Target YKFileManager for non-ARC
+	* Target YKFileManagerARC is ARC enabled
+
+	
+	
+ 
 
 
 ### Dependencies
-Dependencies are managed using **CocoaPods** (www.cocoapods.org).  
-In order to compile sources you must open **YakimbiIosTest.xcworkspace**.  
+Dependencies are managed using  [**CocoaPods**](http://www.cocoapods.org).  
+** In order to compile sources you must open __YakimbiIosTest.xcworkspace__ **.  
 All these libraries are essential for advanced iOS development.
 
-* **InAppSettingsKit** is an open source solution to to easily add in-app settings to your iPhone apps.  
- *pod 'InAppSettingsKit', '~> 1.0' https://github.com/futuretap/InAppSettingsKit*
+* [**InAppSettingsKit**](https://github.com/futuretap/InAppSettingsKit) is an open source solution to to easily add in-app settings to your iPhone apps.  
+ *pod 'InAppSettingsKit', '~> 1.0' *
 
-* **DCIntrospect** is small set of tools for iOS that aid in debugging user interfaces built with UIKit. It's especially useful for UI layouts that are dynamically created or can change during runtime, or for tuning performance by finding non-opaque views or views that are re-drawing unnecessarily. It's designed for use in the iPhone simulator, but can also be used on a device.  
-*pod 'DCIntrospect', '~> 0.0.2' https://github.com/domesticcatsoftware/DCIntrospect*
+* [**DCIntrospect**](https://github.com/domesticcatsoftware/DCIntrospect) is small set of tools for iOS that aid in debugging user interfaces built with UIKit. It's especially useful for UI layouts that are dynamically created or can change during runtime, or for tuning performance by finding non-opaque views or views that are re-drawing unnecessarily. It's designed for use in the iPhone simulator, but can also be used on a device.  
+*pod 'DCIntrospect', '~> 0.0.2' *
 
-* **ISO8601DateFormatter** is a standard Date formatter  
- *pod 'ISO8601DateFormatter', '~> 0.6' https://bitbucket.org/boredzo/iso-8601-parser-unparser/* 
+* [**ISO8601DateFormatter**](https://bitbucket.org/boredzo/iso-8601-parser-unparser/) is a standard Date formatter  
+ *pod 'ISO8601DateFormatter', '~> 0.6' * 
 
 
 
