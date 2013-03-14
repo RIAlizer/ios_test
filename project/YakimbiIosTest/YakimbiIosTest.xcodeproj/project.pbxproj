@@ -559,10 +559,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AACD51216E8FFC800265BE0 /* YakimbiIosTest */,
-				3AACD53B16E8FFC800265BE0 /* YakimbiIosTestTests */,
 				3A329C4516F18A050040362A /* YKFileManager */,
 				3A329C7A16F18A740040362A /* YKFileManagerARC */,
+				3AACD51216E8FFC800265BE0 /* YakimbiIosTest */,
+				3AACD53B16E8FFC800265BE0 /* YakimbiIosTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -880,6 +880,89 @@
 			};
 			name = Release;
 		};
+		3A329CB116F19B100040362A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		3A329CB216F19B100040362A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YakimbiIosTest/YakimbiIosTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		3A329CB316F19B100040362A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YakimbiIosTest.app/YakimbiIosTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YakimbiIosTestTests/YakimbiIosTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		3A329CB416F19B100040362A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManager;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		3A329CB516F19B100040362A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManagerARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManagerARC;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
 		3AACD54C16E8FFC800265BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1004,6 +1087,7 @@
 			buildConfigurations = (
 				3A329C7416F18A050040362A /* Debug */,
 				3A329C7516F18A050040362A /* Release */,
+				3A329CB416F19B100040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1013,6 +1097,7 @@
 			buildConfigurations = (
 				3A329CAA16F18A740040362A /* Debug */,
 				3A329CAB16F18A740040362A /* Release */,
+				3A329CB516F19B100040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1022,6 +1107,7 @@
 			buildConfigurations = (
 				3AACD54C16E8FFC800265BE0 /* Debug */,
 				3AACD54D16E8FFC800265BE0 /* Release */,
+				3A329CB116F19B100040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1031,6 +1117,7 @@
 			buildConfigurations = (
 				3AACD54F16E8FFC800265BE0 /* Debug */,
 				3AACD55016E8FFC800265BE0 /* Release */,
+				3A329CB216F19B100040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1040,6 +1127,7 @@
 			buildConfigurations = (
 				3AACD55216E8FFC800265BE0 /* Debug */,
 				3AACD55316E8FFC800265BE0 /* Release */,
+				3A329CB316F19B100040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -54,8 +54,8 @@
     
     [self setupUI];
     
-    [self performSelector:@selector(loadData) withObject:nil afterDelay:LOADING_DELAY];
-    
+    //[self performSelector:@selector(loadData) withObject:nil afterDelay:LOADING_DELAY];
+    [self loadData];
 }
 
 #pragma mark - private

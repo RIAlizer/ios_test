@@ -11,36 +11,6 @@
 
 
 
-#define NAMESPACE @"nttdata.exception"
-#define ERROR_DOMAIN @"nttdata.error"
-#define EXCEPTION_VTRESOURCE_NOT_LOADED @"nttdata.exception.resourceNotLoaded" 
-#define AES_CRIPTO_KEY @"aes_cripto_key"
-
-#define BNL_THEME_GREEN 0x009966
-#define BNL_THEME_DARK_GREEN 0x009966
-
-
-
-//override UIView + Shadow defs
-#define DEFAULT_SHADOW_OFFSET CGSizeMake(0.0f, -3.0f)
-
-#define DEFAULT_SHADOW_RADIUS 3.0f
-
-#define DEFAULT_SHADOW_OPACITY 0.7f
-
-#define DEFAULT_SHADOW_COLOR [UIColor blackColor].CGColor
-
-#define DEFAULT_FADE_IN_TIMEOUT 1.0f
-
-#define DEFAULT_FADE_OUT_TIMEOUT 1.0f
-
-#define DEFAULT_PUSH_FADE_IN_TIMEOUT 0.4f
-
-#define DEFAULT_PUSH_FADE_OUT_TIMEOUT 0.4f
-
-
-#define FAKE_TIMEOUT 2 //seconds
-
 
 //MACROS defined in Target Settings
 
@@ -84,25 +54,6 @@
     #define NULLSAFE_ENABLED 1
 #endif
 
-
-//font embedding
-#define DEFAULT_APP_FONT                @"PT-sans-regular.ttf"
-#define DEFAULT_APP_FONT_BOLD           @"PT-sans-bold.ttf"
-#define DEFAULT_APP_FONT_ITALIC         @"PT-sans-italic.ttf"
-#define DEFAULT_APP_FONT_BOLD_ITALIC    @"PT-sans-bold-italic.ttf"
-
-//iVersion specs
-#define REMOTE_VERSIONS_PLIST_URL @"http://lab.joinpad.net/rializer/ilib/latest/appVersions.plist"//@"http://rializer.com/ios/nttdata/ilibrary/latest/appVersions.plist"
-#define UPDATE_URL @"http://lab.joinpad.net/rializer/ilib/latest"//@"http://rializer.com/ios/nttdata/ilibrary/latest/"
-
-//service endpoint
-#define TEST_BASE_URL @"http://rializer.com/ios/nttdata/ilibrary"
-//#define TEST_BASE_URL @"http://gonte-macbook-pro.local"
-
-//#define TEST_LIST_PRESENTATION @"/test/sampledocs/ilib/listpresentation.php"
-#define TEST_LIST_PRESENTATION @"http://lab.joinpad.net/rializer/ilib/repo/listpresentation.php"//@"http://lab.joinpad.net/rializer/ilib/repo/listpresentation.php"
-//#define TEST_DETAIL_PRESENTATION @"/test/sampledocs/ilib/sample2.ilb"
-#define TEST_DETAIL_PRESENTATION @"/test/sampledocs/ilib/sample2.ilb"
 
 //datetime specs
 

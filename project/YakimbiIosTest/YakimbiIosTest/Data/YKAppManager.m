@@ -43,6 +43,13 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(YKAppManager);
         
         NSData* responseData = [NSData dataWithContentsOfURL: [NSURL URLWithString:ENDPOINT]];
         
+        if (!responseData) {
+            
+            
+            error = [NSError errorWithDomain:@"com.joinpad.yk" code:100 userInfo:[NSDictionary dictionaryWithObjectsAndKeys:@"Uops! Verify your internet connection!", @"localizedDescription", nil]];
+            failure(error,nil);
+            return;
+        }
         
         NSDictionary* json = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];
         
