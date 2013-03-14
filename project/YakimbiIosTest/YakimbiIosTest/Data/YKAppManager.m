@@ -141,7 +141,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(YKAppManager);
     double convertedValue = [value doubleValue];
     int multiplyFactor = 0;
     
-    NSArray *tokens = [NSArray arrayWithObjects:@"bytes",@"Kb",@"Mb",@"G b",@"Tb",nil];
+    NSArray *tokens = [NSArray arrayWithObjects:@"bytes",@"Kb",@"Mb",@"Gb",@"Tb",nil];
     
     while (convertedValue > 1024) {
         convertedValue /= 1024;

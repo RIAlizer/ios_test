@@ -17,7 +17,7 @@
 }
 
 @property (MB_STRONG) NSDate * created_date;
-@property (MB_STRONG) NSNumber * is_shared;
+@property (MB_STRONG) NSNumber *is_shared;
 @property (MB_STRONG) NSNumber * item_id;
 @property (MB_STRONG) NSString * last_updated_by;
 @property (MB_STRONG) NSDate * last_updated_date;

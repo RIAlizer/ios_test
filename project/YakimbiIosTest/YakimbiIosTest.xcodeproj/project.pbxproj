@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A329C2B16F16DCE0040362A /* YKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2916F16DCE0040362A /* YKInfoViewController.m */; };
-		3A329C2C16F16DCE0040362A /* YKInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */; };
-		3A329C2F16F16E1A0040362A /* YKGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A329C2E16F16E1A0040362A /* YKGraphView.m */; };
 		3A329C4716F18A050040362A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52216E8FFC800265BE0 /* main.m */; };
 		3A329C4816F18A050040362A /* YKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */; };
 		3A329C4916F18A050040362A /* YKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD55D16E908AE00265BE0 /* YKViewController.m */; };
@@ -94,65 +91,16 @@
 		3A329CA516F18A740040362A /* YKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */; };
 		3A329CA616F18A740040362A /* YKInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A329C2A16F16DCE0040362A /* YKInfoViewController.xib */; };
 		3A329CAF16F18A9F0040362A /* YKFileManagerARC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A329CAE16F18A9F0040362A /* YKFileManagerARC-Info.plist */; };
-		3A329CB016F190130040362A /* YakimbiIosTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD51E16E8FFC800265BE0 /* YakimbiIosTest-Info.plist */; };
-		3A75B0E316EDA6AA00F37DDC /* YKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0E116EDA6AA00F37DDC /* YKViewController.xib */; };
-		3A75B0E616EDA6D400F37DDC /* YKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0E516EDA6D400F37DDC /* YKBaseViewController.m */; };
-		3A75B0ED16EDADF900F37DDC /* YKFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0EB16EDADF900F37DDC /* YKFileCell.m */; };
-		3A75B0EE16EDADF900F37DDC /* YKFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0EC16EDADF900F37DDC /* YKFileCell.xib */; };
-		3A75B0F116EDB06C00F37DDC /* PullToRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B0F016EDB06B00F37DDC /* PullToRefreshHeaderView.m */; };
-		3A75B0F316EDC01200F37DDC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F216EDC01200F37DDC /* icon@2x.png */; };
-		3A75B0F516EDC01600F37DDC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F416EDC01600F37DDC /* icon.png */; };
-		3A75B0F716EDC02200F37DDC /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F616EDC02200F37DDC /* icon-iPad.png */; };
-		3A75B0F916EDC0AB00F37DDC /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */; };
-		3A75B0FB16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */; };
-		3A75B10016EDC2BA00F37DDC /* cubeGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FD16EDC2BA00F37DDC /* cubeGreen@2x.png */; };
-		3A75B10116EDC2BA00F37DDC /* cubeOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FE16EDC2BA00F37DDC /* cubeOrange@2x.png */; };
-		3A75B10216EDC2BA00F37DDC /* cubeRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B0FF16EDC2BA00F37DDC /* cubeRed@2x.png */; };
-		3A75B10616EDC35F00F37DDC /* cubeGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10316EDC35F00F37DDC /* cubeGreen.png */; };
-		3A75B10716EDC35F00F37DDC /* cubeOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10416EDC35F00F37DDC /* cubeOrange.png */; };
-		3A75B10816EDC35F00F37DDC /* cubeRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10516EDC35F00F37DDC /* cubeRed.png */; };
-		3A75B10B16EDC6B900F37DDC /* cubeGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10916EDC6B900F37DDC /* cubeGray.png */; };
-		3A75B10C16EDC6B900F37DDC /* cubeGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B10A16EDC6B900F37DDC /* cubeGray@2x.png */; };
-		3A75B11216EDC9FF00F37DDC /* YKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B10F16EDC9FE00F37DDC /* YKDetailViewController.m */; };
-		3A75B11316EDC9FF00F37DDC /* YKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75B11016EDC9FE00F37DDC /* YKDetailViewController.xib */; };
-		3A75B11516EDCF4700F37DDC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75B11416EDCF4700F37DDC /* CoreData.framework */; };
-		3A75B11816EDCFA800F37DDC /* YKFileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11616EDCFA800F37DDC /* YKFileManager.xcdatamodeld */; };
-		3A75B11B16EDD34E00F37DDC /* YKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11A16EDD34E00F37DDC /* YKDataManager.m */; };
-		3A75B11F16EDD63600F37DDC /* YKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11E16EDD63600F37DDC /* YKFile.m */; };
 		3A75B12016EDD63600F37DDC /* YKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B11E16EDD63600F37DDC /* YKFile.m */; };
-		3A75B12316EDD70B00F37DDC /* YKSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B12216EDD70B00F37DDC /* YKSpace.m */; };
 		3A75B12416EDD70B00F37DDC /* YKSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75B12216EDD70B00F37DDC /* YKSpace.m */; };
-		3AACD51716E8FFC800265BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51616E8FFC800265BE0 /* UIKit.framework */; };
-		3AACD51916E8FFC800265BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51816E8FFC800265BE0 /* Foundation.framework */; };
-		3AACD51B16E8FFC800265BE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */; };
-		3AACD52316E8FFC800265BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52216E8FFC800265BE0 /* main.m */; };
-		3AACD52716E8FFC800265BE0 /* YKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD52616E8FFC800265BE0 /* YKAppDelegate.m */; };
-		3AACD52916E8FFC800265BE0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52816E8FFC800265BE0 /* Default.png */; };
-		3AACD52B16E8FFC800265BE0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52A16E8FFC800265BE0 /* Default@2x.png */; };
-		3AACD52D16E8FFC800265BE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */; };
 		3AACD53E16E8FFC800265BE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD53D16E8FFC800265BE0 /* SenTestingKit.framework */; };
 		3AACD53F16E8FFC800265BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51616E8FFC800265BE0 /* UIKit.framework */; };
 		3AACD54016E8FFC800265BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AACD51816E8FFC800265BE0 /* Foundation.framework */; };
 		3AACD54816E8FFC800265BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD54616E8FFC800265BE0 /* InfoPlist.strings */; };
 		3AACD54B16E8FFC800265BE0 /* YakimbiIosTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD54A16E8FFC800265BE0 /* YakimbiIosTestTests.m */; };
-		3AACD55516E9089E00265BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD55416E9089E00265BE0 /* InfoPlist.strings */; };
 		3AACD55616E9089E00265BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AACD55416E9089E00265BE0 /* InfoPlist.strings */; };
-		3AACD56016E908AE00265BE0 /* YKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD55D16E908AE00265BE0 /* YKViewController.m */; };
-		3AACD56816E9096F00265BE0 /* YKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACD56716E9096F00265BE0 /* YKAppManager.m */; };
-		3AD7395816F0D4EC008D7954 /* YKFileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7395716F0D4EC008D7954 /* YKFileContainer.m */; };
 		3AD7395916F0D4EC008D7954 /* YKFileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7395716F0D4EC008D7954 /* YKFileContainer.m */; };
-		7B365F5B31654ACA9A27F50A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9A9E0DDC7F4F23B60DBF73 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3AACD54116E8FFC800265BE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3AACD50B16E8FFC800265BE0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AACD51216E8FFC800265BE0;
-			remoteInfo = YakimbiIosTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3A329C2816F16DCE0040362A /* YKInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKInfoViewController.h; sourceTree = "<group>"; };
@@ -196,7 +144,6 @@
 		3A75B11E16EDD63600F37DDC /* YKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFile.m; sourceTree = "<group>"; };
 		3A75B12116EDD70A00F37DDC /* YKSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSpace.h; sourceTree = "<group>"; };
 		3A75B12216EDD70B00F37DDC /* YKSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSpace.m; sourceTree = "<group>"; };
-		3AACD51316E8FFC800265BE0 /* YakimbiIosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YakimbiIosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AACD51616E8FFC800265BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3AACD51816E8FFC800265BE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -210,7 +157,6 @@
 		3AACD52C16E8FFC800265BE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3AACD53C16E8FFC800265BE0 /* YakimbiIosTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YakimbiIosTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AACD53D16E8FFC800265BE0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3AACD54516E8FFC800265BE0 /* YakimbiIosTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YakimbiIosTestTests-Info.plist"; sourceTree = "<group>"; };
 		3AACD54716E8FFC800265BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AACD54916E8FFC800265BE0 /* YakimbiIosTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YakimbiIosTestTests.h; sourceTree = "<group>"; };
 		3AACD54A16E8FFC800265BE0 /* YakimbiIosTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YakimbiIosTestTests.m; sourceTree = "<group>"; };
@@ -251,18 +197,6 @@
 				3A329C8E16F18A740040362A /* Foundation.framework in Frameworks */,
 				3A329C8F16F18A740040362A /* CoreGraphics.framework in Frameworks */,
 				3A329C9016F18A740040362A /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AACD51016E8FFC800265BE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A75B11516EDCF4700F37DDC /* CoreData.framework in Frameworks */,
-				3AACD51716E8FFC800265BE0 /* UIKit.framework in Frameworks */,
-				3AACD51916E8FFC800265BE0 /* Foundation.framework in Frameworks */,
-				3AACD51B16E8FFC800265BE0 /* CoreGraphics.framework in Frameworks */,
-				7B365F5B31654ACA9A27F50A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +265,6 @@
 		3AACD50A16E8FFC800265BE0 = {
 			isa = PBXGroup;
 			children = (
-				3A75B11416EDCF4700F37DDC /* CoreData.framework */,
 				3A75B0FA16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png */,
 				3A75B0F816EDC0AB00F37DDC /* icon-iPad@2x.png */,
 				3A75B0F616EDC02200F37DDC /* icon-iPad.png */,
@@ -348,7 +281,6 @@
 		3AACD51416E8FFC800265BE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AACD51316E8FFC800265BE0 /* YakimbiIosTest.app */,
 				3AACD53C16E8FFC800265BE0 /* YakimbiIosTestTests.octest */,
 				3A329C7616F18A050040362A /* YKFileManager.app */,
 				3A329CAC16F18A740040362A /* YKFileManagerARC.app */,
@@ -359,6 +291,7 @@
 		3AACD51516E8FFC800265BE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A75B11416EDCF4700F37DDC /* CoreData.framework */,
 				3AACD51616E8FFC800265BE0 /* UIKit.framework */,
 				3AACD51816E8FFC800265BE0 /* Foundation.framework */,
 				3AACD51A16E8FFC800265BE0 /* CoreGraphics.framework */,
@@ -411,7 +344,6 @@
 		3AACD54416E8FFC800265BE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3AACD54516E8FFC800265BE0 /* YakimbiIosTestTests-Info.plist */,
 				3AACD54616E8FFC800265BE0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -500,24 +432,6 @@
 			productReference = 3A329CAC16F18A740040362A /* YKFileManagerARC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3AACD51216E8FFC800265BE0 /* YakimbiIosTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AACD54E16E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTest" */;
-			buildPhases = (
-				3AACD50F16E8FFC800265BE0 /* Sources */,
-				3AACD51016E8FFC800265BE0 /* Frameworks */,
-				3AACD51116E8FFC800265BE0 /* Resources */,
-				729C2DB24EAB4924A0FDA5E0 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YakimbiIosTest;
-			productName = YakimbiIosTest;
-			productReference = 3AACD51316E8FFC800265BE0 /* YakimbiIosTest.app */;
-			productType = "com.apple.product-type.application";
-		};
 		3AACD53B16E8FFC800265BE0 /* YakimbiIosTestTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AACD55116E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTestTests" */;
@@ -530,7 +444,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3AACD54216E8FFC800265BE0 /* PBXTargetDependency */,
 			);
 			name = YakimbiIosTestTests;
 			productName = YakimbiIosTestTests;
@@ -561,7 +474,6 @@
 			targets = (
 				3A329C4516F18A050040362A /* YKFileManager */,
 				3A329C7A16F18A740040362A /* YKFileManagerARC */,
-				3AACD51216E8FFC800265BE0 /* YakimbiIosTest */,
 				3AACD53B16E8FFC800265BE0 /* YakimbiIosTestTests */,
 			);
 		};
@@ -626,35 +538,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AACD51116E8FFC800265BE0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AACD52916E8FFC800265BE0 /* Default.png in Resources */,
-				3AACD52B16E8FFC800265BE0 /* Default@2x.png in Resources */,
-				3AACD52D16E8FFC800265BE0 /* Default-568h@2x.png in Resources */,
-				3AACD55516E9089E00265BE0 /* InfoPlist.strings in Resources */,
-				3A75B0E316EDA6AA00F37DDC /* YKViewController.xib in Resources */,
-				3A75B0EE16EDADF900F37DDC /* YKFileCell.xib in Resources */,
-				3A75B0F316EDC01200F37DDC /* icon@2x.png in Resources */,
-				3A75B0F516EDC01600F37DDC /* icon.png in Resources */,
-				3A75B0F716EDC02200F37DDC /* icon-iPad.png in Resources */,
-				3A75B0F916EDC0AB00F37DDC /* icon-iPad@2x.png in Resources */,
-				3A75B0FB16EDC27E00F37DDC /* Default-Portrait@2x~ipad.png in Resources */,
-				3A75B10016EDC2BA00F37DDC /* cubeGreen@2x.png in Resources */,
-				3A75B10116EDC2BA00F37DDC /* cubeOrange@2x.png in Resources */,
-				3A75B10216EDC2BA00F37DDC /* cubeRed@2x.png in Resources */,
-				3A75B10616EDC35F00F37DDC /* cubeGreen.png in Resources */,
-				3A75B10716EDC35F00F37DDC /* cubeOrange.png in Resources */,
-				3A75B10816EDC35F00F37DDC /* cubeRed.png in Resources */,
-				3A75B10B16EDC6B900F37DDC /* cubeGray.png in Resources */,
-				3A75B10C16EDC6B900F37DDC /* cubeGray@2x.png in Resources */,
-				3A75B11316EDC9FF00F37DDC /* YKDetailViewController.xib in Resources */,
-				3A329C2C16F16DCE0040362A /* YKInfoViewController.xib in Resources */,
-				3A329CB016F190130040362A /* YakimbiIosTest-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3AACD53916E8FFC800265BE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -708,20 +591,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		729C2DB24EAB4924A0FDA5E0 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -769,28 +638,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AACD50F16E8FFC800265BE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AACD52316E8FFC800265BE0 /* main.m in Sources */,
-				3AACD52716E8FFC800265BE0 /* YKAppDelegate.m in Sources */,
-				3AACD56016E908AE00265BE0 /* YKViewController.m in Sources */,
-				3AACD56816E9096F00265BE0 /* YKAppManager.m in Sources */,
-				3A75B0E616EDA6D400F37DDC /* YKBaseViewController.m in Sources */,
-				3A75B0ED16EDADF900F37DDC /* YKFileCell.m in Sources */,
-				3A75B0F116EDB06C00F37DDC /* PullToRefreshHeaderView.m in Sources */,
-				3A75B11216EDC9FF00F37DDC /* YKDetailViewController.m in Sources */,
-				3A75B11816EDCFA800F37DDC /* YKFileManager.xcdatamodeld in Sources */,
-				3A75B11B16EDD34E00F37DDC /* YKDataManager.m in Sources */,
-				3A75B11F16EDD63600F37DDC /* YKFile.m in Sources */,
-				3A75B12316EDD70B00F37DDC /* YKSpace.m in Sources */,
-				3AD7395816F0D4EC008D7954 /* YKFileContainer.m in Sources */,
-				3A329C2B16F16DCE0040362A /* YKInfoViewController.m in Sources */,
-				3A329C2F16F16E1A0040362A /* YKGraphView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3AACD53716E8FFC800265BE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,14 +650,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3AACD54216E8FFC800265BE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3AACD51216E8FFC800265BE0 /* YakimbiIosTest */;
-			targetProxy = 3AACD54116E8FFC800265BE0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3AACD54616E8FFC800265BE0 /* InfoPlist.strings */ = {
@@ -832,7 +671,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
 				INFOPLIST_FILE = "YKFileManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MessageUI,
+					"-framework",
+					QuartzCore,
+					"-all_load",
+				);
 				PRODUCT_NAME = YKFileManager;
 				WRAPPER_EXTENSION = app;
 			};
@@ -846,7 +694,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
 				INFOPLIST_FILE = "YKFileManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MessageUI,
+					"-framework",
+					QuartzCore,
+					"-all_load",
+				);
 				PRODUCT_NAME = YKFileManager;
 				WRAPPER_EXTENSION = app;
 			};
@@ -880,7 +737,7 @@
 			};
 			name = Release;
 		};
-		3A329CB116F19B100040362A /* Distribution */ = {
+		3A329CB616F1A24D0040362A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -897,7 +754,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -905,20 +762,48 @@
 			};
 			name = Distribution;
 		};
-		3A329CB216F19B100040362A /* Distribution */ = {
+		3A329CB716F1A24D0040362A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
-				INFOPLIST_FILE = "YakimbiIosTest/YakimbiIosTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "YKFileManager-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MessageUI,
+					"-framework",
+					QuartzCore,
+					"-all_load",
+				);
+				PRODUCT_NAME = YKFileManager;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
 		};
-		3A329CB316F19B100040362A /* Distribution */ = {
+		3A329CB816F1A24D0040362A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
+				INFOPLIST_FILE = "YKFileManagerARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YKFileManagerARC;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		3A329CB916F1A24D0040362A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YakimbiIosTest.app/YakimbiIosTest";
@@ -932,34 +817,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
-			};
-			name = Distribution;
-		};
-		3A329CB416F19B100040362A /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
-				INFOPLIST_FILE = "YKFileManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = YKFileManager;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Distribution;
-		};
-		3A329CB516F19B100040362A /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
-				INFOPLIST_FILE = "YKFileManagerARC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = YKFileManagerARC;
-				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
 		};
@@ -987,7 +844,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1011,37 +868,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3AACD54F16E8FFC800265BE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
-				INFOPLIST_FILE = "YakimbiIosTest/YakimbiIosTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		3AACD55016E8FFC800265BE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66EA622D6F52491CAE73752D /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YakimbiIosTest/YakimbiIosTest-Prefix.pch";
-				INFOPLIST_FILE = "YakimbiIosTest/YakimbiIosTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -1087,7 +918,7 @@
 			buildConfigurations = (
 				3A329C7416F18A050040362A /* Debug */,
 				3A329C7516F18A050040362A /* Release */,
-				3A329CB416F19B100040362A /* Distribution */,
+				3A329CB716F1A24D0040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1097,7 +928,7 @@
 			buildConfigurations = (
 				3A329CAA16F18A740040362A /* Debug */,
 				3A329CAB16F18A740040362A /* Release */,
-				3A329CB516F19B100040362A /* Distribution */,
+				3A329CB816F1A24D0040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1107,17 +938,7 @@
 			buildConfigurations = (
 				3AACD54C16E8FFC800265BE0 /* Debug */,
 				3AACD54D16E8FFC800265BE0 /* Release */,
-				3A329CB116F19B100040362A /* Distribution */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3AACD54E16E8FFC800265BE0 /* Build configuration list for PBXNativeTarget "YakimbiIosTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AACD54F16E8FFC800265BE0 /* Debug */,
-				3AACD55016E8FFC800265BE0 /* Release */,
-				3A329CB216F19B100040362A /* Distribution */,
+				3A329CB616F1A24D0040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1127,7 +948,7 @@
 			buildConfigurations = (
 				3AACD55216E8FFC800265BE0 /* Debug */,
 				3AACD55316E8FFC800265BE0 /* Release */,
-				3A329CB316F19B100040362A /* Distribution */,
+				3A329CB916F1A24D0040362A /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
